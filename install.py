@@ -50,8 +50,9 @@ def main():
     apply(executable_path, executable_install_path)
 
     # Main libs
-    main_libs = [f.path for f in os.scandir(build_dir)
-                 if f.name.endswith('.o')]
+    main_libs = [
+        f.path for f in os.scandir(build_dir) if f.name.endswith('.o')
+    ]
     for ml in main_libs:
         target_path = os.path.join(LOCAL_LIB, os.path.basename(ml))
         apply(ml, target_path)
@@ -61,15 +62,17 @@ def main():
     install_desktop_dir = os.path.join(LOCAL_LIB, 'misli_desktop')
     os.makedirs(install_desktop_dir, exist_ok=True)
 
-    desktop_libs = [f.path for f in os.scandir(desktop_dir)
-                    if f.name.endswith('.o')]
+    desktop_libs = [
+        f.path for f in os.scandir(desktop_dir) if f.name.endswith('.o')
+    ]
 
     for dl in desktop_libs:
         target_path = os.path.join(install_desktop_dir, os.path.basename(dl))
         apply(dl, target_path)
 
     # Icon
-    icon_path = os.path.abspath(os.path.join(SOURCE_PATH, 'img/icon.png'))
+    icon_path = os.path.abspath(
+        os.path.join(SOURCE_PATH, 'img/icon_oldness.png'))
     icon_install_path = os.path.join(ICONS_DIR, 'misli.png')
     apply(icon_path, icon_install_path)
 
