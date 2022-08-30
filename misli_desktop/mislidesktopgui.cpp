@@ -65,6 +65,7 @@ MisliDesktopGui::MisliDesktopGui(int argc, char *argv[]) :
         qDebug()<<"Loading notes dirs:" <<  notesDirs;
     }
 
+    // If there's no path stored - prompt the user to choose one
     if(notesDirs.size() != 1){
         qDebug() << "Bad notes dirs size (!=1)";
         if(notesDirs.size()>1){ //Get the firs from the old config if present
