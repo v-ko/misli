@@ -61,7 +61,7 @@ You can build the app with QtCreator, using the project file in `misli3-cpp/misl
 
 among other.
 
-#### Screenshots (from v2, I'm not a graphical designer as you might notice)
+#### Screenshots (from v2, I'm not a graphics designer as you might notice)
 ![screenshot1](https://a.fsdn.com/con/app/proj/misli/screenshots/Screenshot%20from%202014-09-05%2014%3A40%3A19.png/max/max/1)
 
 # Misli dev overview
