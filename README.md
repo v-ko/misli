@@ -63,7 +63,6 @@ among other.
 
 #### Screenshots (from v2, I'm not a graphical designer as you might notice)
 ![screenshot1](https://a.fsdn.com/con/app/proj/misli/screenshots/Screenshot%20from%202014-09-05%2014%3A40%3A19.png/max/max/1)
-![screenshot2](https://a.fsdn.com/con/app/proj/misli/screenshots/Screenshot%20from%202014-09-05%2014%3A30%3A01.png/max/max/1)
 
 # Misli dev overview
 ## General app development choices
