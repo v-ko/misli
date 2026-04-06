@@ -14,8 +14,6 @@ QT -= webkit
 
 CONFIG += C++11
 
-INCLUDEPATH += /home/p10/Dropbox/Pepi/C++
-
 TARGET = misli
 TEMPLATE = app
 
